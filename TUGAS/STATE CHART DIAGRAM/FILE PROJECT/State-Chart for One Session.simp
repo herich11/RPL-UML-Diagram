@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="11.91" multi-file="no" uid="simp86e21dd2dd854ee8bd853a452798393e">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="" type="TextItem" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="initial-state" type="UmlInitialState" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="state" type="UmlState" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="final-state" type="UmlFinalState" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="" type="AbstractElementGroup" />
+        <value>360</value>
+      </counter>
+      <counter>
+        <item-type type-id="text" type="AbstractTextItem" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="initial-state" type="UmlInitialState" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="state" type="UmlState" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="UniversalConnector" />
+        <value>12</value>
+      </counter>
+      <counter>
+        <item-type type-id="final-state" type="UmlFinalState" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="general-transition" type="UmlTransition" />
+        <value>13</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlStateMachineDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-5cde50e5eead46fc9fdee9cb86cd30ac" name="" task-id-sequence="0">
+    <persons>
+      <person id="Pacebbf8c104b439ca629e525ff0d8927">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-6d4dbbee2416446da3e5fd1f524c7289" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <items />
+  <models>
+    <model id="p40b7634a65b64f0b8e7247f0c791fc20_172898423" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>01/21/2020 07:42:29</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-statechart" id="pfaaf0c6c03ec4046ba4cd98a81babea0_549302877" name="StateMachineDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="-17,-112">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>01/21/2020 07:42:29</creation-date>
+          <change-date>01/21/2020 08:00:36</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="529f709a4bae456a96b7e73659fa0bd7" cid="IS001" type="initial-state" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pacebbf8c104b439ca629e525ff0d8927" creation-date="01/21/2020 07:43:48" />
+          <item id="6a2d7430cc2e4aa09e46632305864c02" cid="ST001" type="state" name="READING CARD" style-class="" visibility="package" change-tracking-state="added" creator="Pacebbf8c104b439ca629e525ff0d8927" creation-date="01/21/2020 07:43:59">
+            <state-invariant />
+            <actions />
+          </item>
+          <item id="70d8a7d92b884a4c9ffc2bece5676fd9" cid="ST002" type="state" name="READING PIN" style-class="" visibility="package" change-tracking-state="added" creator="Pacebbf8c104b439ca629e525ff0d8927" creation-date="01/21/2020 07:44:25">
+            <state-invariant />
+            <actions />
+          </item>
+          <item id="c2353edd9df6408c899c4198ecbc923a" cid="ST003" type="state" name="CHOOSING TRANSACTION" style-class="" visibility="package" change-tracking-state="added" creator="Pacebbf8c104b439ca629e525ff0d8927" creation-date="01/21/2020 07:44:38">
+            <state-invariant />
+            <actions />
+          </item>
+          <item id="028a5925eb624dca86cb8de6fa484a2a" cid="ST004" type="state" name="PERFORMING TRANSACTION include Transaction" style-class="" visibility="package" change-tracking-state="added" creator="Pacebbf8c104b439ca629e525ff0d8927" creation-date="01/21/2020 07:45:30">
+            <state-invariant />
+            <actions />
+          </item>
+          <item id="39c0489f82da4b669e26c499b9bcb68d" cid="ST005" type="state" name="EJECTING CARD" style-class="" visibility="package" change-tracking-state="added" creator="Pacebbf8c104b439ca629e525ff0d8927" creation-date="01/21/2020 07:46:38">
+            <state-invariant />
+            <actions />
+          </item>
+          <item id="f015be64f9944ce4b93277d599f84f52" cid="FS001" type="final-state" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pacebbf8c104b439ca629e525ff0d8927" creation-date="01/21/2020 07:47:18" />
+          <item id="c038c9c85b924d84976659850142b019" cid="ELEM002" type="general-transition" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pacebbf8c104b439ca629e525ff0d8927" creation-date="01/21/2020 07:47:43" from="529f709a4bae456a96b7e73659fa0bd7" to="6a2d7430cc2e4aa09e46632305864c02">
+            <transition guard="" behaviourExpression="" />
+          </item>
+          <item id="ba3db1e2582d4b16bb0f8df8cb3208c2" cid="ELEM003" type="general-transition" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pacebbf8c104b439ca629e525ff0d8927" creation-date="01/21/2020 07:47:50" from="6a2d7430cc2e4aa09e46632305864c02" to="70d8a7d92b884a4c9ffc2bece5676fd9">
+            <transition guard="" behaviourExpression="">
+              <trigger>Card read successfully</trigger>
+            </transition>
+          </item>
+          <item id="c7c46001da92441b9404fca9e5cf8a27" cid="ELEM004" type="general-transition" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pacebbf8c104b439ca629e525ff0d8927" creation-date="01/21/2020 07:47:56" from="70d8a7d92b884a4c9ffc2bece5676fd9" to="c2353edd9df6408c899c4198ecbc923a">
+            <transition guard="" behaviourExpression="">
+              <trigger>PIN read successfully</trigger>
+            </transition>
+          </item>
+          <item id="d11e710afebb4d3eb4f2efb46d91eb5d" cid="ELEM005" type="general-transition" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pacebbf8c104b439ca629e525ff0d8927" creation-date="01/21/2020 07:48:03" from="c2353edd9df6408c899c4198ecbc923a" to="028a5925eb624dca86cb8de6fa484a2a">
+            <transition guard="" behaviourExpression="">
+              <trigger>Transaction chosen</trigger>
+            </transition>
+          </item>
+          <item id="949a778de53d49cfb8d1431cbc4df8cc" cid="ELEM006" type="general-transition" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pacebbf8c104b439ca629e525ff0d8927" creation-date="01/21/2020 07:48:09" from="028a5925eb624dca86cb8de6fa484a2a" to="39c0489f82da4b669e26c499b9bcb68d">
+            <transition guard="" behaviourExpression="">
+              <trigger>Customer finished</trigger>
+            </transition>
+          </item>
+          <item id="76160bd1c2d345d2bb41bf5d54171de6" cid="ELEM007" type="general-transition" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pacebbf8c104b439ca629e525ff0d8927" creation-date="01/21/2020 07:48:13" from="39c0489f82da4b669e26c499b9bcb68d" to="f015be64f9944ce4b93277d599f84f52">
+            <transition guard="" behaviourExpression="" />
+          </item>
+          <item id="fb54f9f4f8db4a04a5c82b393607b20a" cid="ELEM008" type="general-transition" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pacebbf8c104b439ca629e525ff0d8927" creation-date="01/21/2020 07:49:32" from="028a5925eb624dca86cb8de6fa484a2a" to="c2353edd9df6408c899c4198ecbc923a">
+            <transition guard="" behaviourExpression="">
+              <trigger>Customer wants to do another</trigger>
+            </transition>
+          </item>
+          <item id="3a8ed7447a2c4dd9ac29f10d4c9cece7" cid="ELEM009" type="general-transition" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pacebbf8c104b439ca629e525ff0d8927" creation-date="01/21/2020 07:53:10" from="028a5925eb624dca86cb8de6fa484a2a" to="f015be64f9944ce4b93277d599f84f52">
+            <transition guard="" behaviourExpression="">
+              <trigger>Aborted due to too many invalid PINS card retained</trigger>
+            </transition>
+          </item>
+          <item id="47ba7f14136c491ab66c2b8d2b3a825d" cid="ELEM010" type="general-transition" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pacebbf8c104b439ca629e525ff0d8927" creation-date="01/21/2020 07:55:55" from="c2353edd9df6408c899c4198ecbc923a" to="39c0489f82da4b669e26c499b9bcb68d">
+            <transition guard="" behaviourExpression="">
+              <trigger>Cancel pressed</trigger>
+            </transition>
+          </item>
+          <item id="9288d85f8eb244978046496e625aec94" cid="ELEM011" type="general-transition" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pacebbf8c104b439ca629e525ff0d8927" creation-date="01/21/2020 07:58:22" from="6a2d7430cc2e4aa09e46632305864c02" to="39c0489f82da4b669e26c499b9bcb68d">
+            <transition guard="" behaviourExpression=" display &quot;Card not readable&quot;">
+              <trigger>Card not readable</trigger>
+            </transition>
+          </item>
+          <item id="7d7cc2b66ef94bda88f5a6aa98250f3d" cid="ELEM012" type="general-transition" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pacebbf8c104b439ca629e525ff0d8927" creation-date="01/21/2020 08:00:36" from="70d8a7d92b884a4c9ffc2bece5676fd9" to="39c0489f82da4b669e26c499b9bcb68d">
+            <transition guard="" behaviourExpression="">
+              <trigger>Cancel pressed</trigger>
+            </transition>
+          </item>
+        </abstract-items>
+        <layer id="2460949af6e343d58fe64e8c762fd7a8" name="Default" visible="true" enabled="true" locked="false">
+          <item id="di24c409420634423197fe70b4d2a843814528" iid="4a3ae9cf077942a485a27188ffde1d2a" name="Element1" creation-date="01/21/2020 07:42:43" order-index="0" type="drawing-text">
+            <layout ax="79" ay="-282" awidth="478" aheight="70" x="79" y="-282" width="478" height="70" />
+            <drawing-text>
+              <text>State-Chart for One Session</text>
+            </drawing-text>
+            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FF000000" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;20;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;20;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="solid" color="#00FFFFFF" color2="#00FFFFFF" />
+              <border color="#FF000000" width="0" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="529f709a4bae456a96b7e73659fa0bd7" iid="9a7d9aab9cb74dffbcc947e7a8c8f3de" anchor="None" creation-date="01/21/2020 07:43:48" order-index="1" type="entity">
+            <layout ax="107.5" ay="-93" awidth="25" aheight="25" x="107.5" y="-93" width="25" height="25" name-position="0,10" name-anchor="bottom" auto-anchor="true" label-attached="false" />
+          </item>
+          <item id="6a2d7430cc2e4aa09e46632305864c02" iid="4d3ff93ba03e40d6b91efa4f725c771d" anchor="None" creation-date="01/21/2020 07:43:59" order-index="2" type="entity">
+            <layout ax="256" ay="-105.5" awidth="124" aheight="50" x="256" y="-105.5" width="124" height="50" />
+          </item>
+          <item id="70d8a7d92b884a4c9ffc2bece5676fd9" iid="73f5f05abada4ac19d6604399c14c61d" anchor="None" creation-date="01/21/2020 07:44:25" order-index="3" type="entity">
+            <layout ax="256" ay="15" awidth="124" aheight="50" x="256" y="15" width="124" height="50" />
+          </item>
+          <item id="c2353edd9df6408c899c4198ecbc923a" iid="c2e78ddda1ed4a7bbdf5b95fa50fc29d" anchor="None" creation-date="01/21/2020 07:44:38" order-index="4" type="entity">
+            <layout ax="256" ay="135.5" awidth="124" aheight="50" x="256" y="135.5" width="124" height="50" />
+          </item>
+          <item id="028a5925eb624dca86cb8de6fa484a2a" iid="4cba021779b443339da0ade2e729106a" anchor="None" creation-date="01/21/2020 07:45:30" order-index="5" type="entity">
+            <layout ax="256" ay="256" awidth="124" aheight="70" x="256" y="256" width="124" height="70" />
+          </item>
+          <item id="39c0489f82da4b669e26c499b9bcb68d" iid="c905060e34544829ae21acf1faec14fc" anchor="None" creation-date="01/21/2020 07:46:38" order-index="6" type="entity">
+            <layout ax="256" ay="396.5" awidth="124" aheight="50" x="256" y="396.5" width="124" height="50" />
+          </item>
+          <item id="f015be64f9944ce4b93277d599f84f52" iid="ac3c585a41f243628e71d2b5e4cc3617" anchor="None" creation-date="01/21/2020 07:47:18" order-index="7" type="entity">
+            <layout ax="305.5" ay="517" awidth="25" aheight="25" x="305.5" y="517" width="25" height="25" name-position="0,10" name-anchor="bottom" auto-anchor="true" label-attached="false" />
+          </item>
+          <item id="c038c9c85b924d84976659850142b019" iid="95879ac679f24f4ea753f1c265e2d638" creation-date="01/21/2020 07:47:43" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="132" y1="-80" x2="256" y2="-80" start-border-pos="0.38" end-border-pos="0.8725" name-position="0,0">
+              <points>
+                <point x="132" y="-80" />
+                <point x="256" y="-80" />
+              </points>
+            </layout>
+            <relation from="529f709a4bae456a96b7e73659fa0bd7" from-iid="9a7d9aab9cb74dffbcc947e7a8c8f3de" to="6a2d7430cc2e4aa09e46632305864c02" to-iid="4d3ff93ba03e40d6b91efa4f725c771d" />
+          </item>
+          <item id="ba3db1e2582d4b16bb0f8df8cb3208c2" iid="03733fedbfa64672a7ee0d093f321454" creation-date="01/21/2020 07:47:50" order-index="9" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="318" y1="-56" x2="318" y2="15" start-border-pos="0.625" end-border-pos="0.125" name-position="49,15">
+              <points>
+                <point x="318" y="-56" />
+                <point x="318" y="15" />
+              </points>
+            </layout>
+            <relation from="6a2d7430cc2e4aa09e46632305864c02" from-iid="4d3ff93ba03e40d6b91efa4f725c771d" to="70d8a7d92b884a4c9ffc2bece5676fd9" to-iid="73f5f05abada4ac19d6604399c14c61d" />
+          </item>
+          <item id="c7c46001da92441b9404fca9e5cf8a27" iid="15ed001563214aacac678dca69d355a9" creation-date="01/21/2020 07:47:56" order-index="10" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="318" y1="65" x2="318" y2="136" start-border-pos="0.625" end-border-pos="0.125" name-position="46,16">
+              <points>
+                <point x="318" y="65" />
+                <point x="318" y="136" />
+              </points>
+            </layout>
+            <relation from="70d8a7d92b884a4c9ffc2bece5676fd9" from-iid="73f5f05abada4ac19d6604399c14c61d" to="c2353edd9df6408c899c4198ecbc923a" to-iid="c2e78ddda1ed4a7bbdf5b95fa50fc29d" />
+          </item>
+          <item id="d11e710afebb4d3eb4f2efb46d91eb5d" iid="59e9e8d83a874a73a17ea521bc1a586f" creation-date="01/21/2020 07:48:03" order-index="11" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="318" y1="186" x2="318" y2="256" start-border-pos="0.625" end-border-pos="0.125" name-position="45,6">
+              <points>
+                <point x="318" y="186" />
+                <point x="318" y="256" />
+              </points>
+            </layout>
+            <relation from="c2353edd9df6408c899c4198ecbc923a" from-iid="c2e78ddda1ed4a7bbdf5b95fa50fc29d" to="028a5925eb624dca86cb8de6fa484a2a" to-iid="4cba021779b443339da0ade2e729106a" />
+          </item>
+          <item id="949a778de53d49cfb8d1431cbc4df8cc" iid="2c420aa590f24907a3d4aff6e95fc698" creation-date="01/21/2020 07:48:09" order-index="12" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="318" y1="326" x2="318" y2="396" start-border-pos="0.625" end-border-pos="0.125" name-position="42,8">
+              <points>
+                <point x="318" y="326" />
+                <point x="318" y="396" />
+              </points>
+            </layout>
+            <relation from="028a5925eb624dca86cb8de6fa484a2a" from-iid="4cba021779b443339da0ade2e729106a" to="39c0489f82da4b669e26c499b9bcb68d" to-iid="c905060e34544829ae21acf1faec14fc" />
+          </item>
+          <item id="76160bd1c2d345d2bb41bf5d54171de6" iid="14fb0dc3bab943a0926baf51327e5a40" creation-date="01/21/2020 07:48:13" order-index="13" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="318" y1="446" x2="318" y2="517" start-border-pos="0.625" end-border-pos="0.125" name-position="0,0">
+              <points>
+                <point x="318" y="446" />
+                <point x="318" y="517" />
+              </points>
+            </layout>
+            <relation from="39c0489f82da4b669e26c499b9bcb68d" from-iid="c905060e34544829ae21acf1faec14fc" to="f015be64f9944ce4b93277d599f84f52" to-iid="ac3c585a41f243628e71d2b5e4cc3617" />
+          </item>
+          <item id="fb54f9f4f8db4a04a5c82b393607b20a" iid="1f1cb837065c47059a7f4eeb66d56c41" creation-date="01/21/2020 07:49:32" order-index="14" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="256" y1="269" x2="256" y2="160" start-border-pos="0.953571423888206" end-border-pos="0.877499997615814" name-position="-61,23">
+              <points>
+                <point x="256" y="269" />
+                <point x="206" y="269" />
+                <point x="206" y="159" />
+                <point x="256" y="160" />
+              </points>
+            </layout>
+            <relation from="028a5925eb624dca86cb8de6fa484a2a" from-iid="4cba021779b443339da0ade2e729106a" to="c2353edd9df6408c899c4198ecbc923a" to-iid="c2e78ddda1ed4a7bbdf5b95fa50fc29d" />
+          </item>
+          <item id="3a8ed7447a2c4dd9ac29f10d4c9cece7" iid="b8236c9ae49643959822a165f236639d" creation-date="01/21/2020 07:53:10" order-index="15" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="256" y1="312" x2="306" y2="530" start-border-pos="0.8" end-border-pos="0.869999997317791" name-position="-59,21">
+              <points>
+                <point x="256" y="312" />
+                <point x="206" y="312" />
+                <point x="205" y="530" />
+                <point x="306" y="530" />
+              </points>
+            </layout>
+            <relation from="028a5925eb624dca86cb8de6fa484a2a" from-iid="4cba021779b443339da0ade2e729106a" to="f015be64f9944ce4b93277d599f84f52" to-iid="ac3c585a41f243628e71d2b5e4cc3617" />
+          </item>
+          <item id="47ba7f14136c491ab66c2b8d2b3a825d" iid="cf1162c3a9374c48b940c2fa77c6d98e" creation-date="01/21/2020 07:55:55" order-index="16" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="380" y1="160" x2="380" y2="396" start-border-pos="0.372500002384186" end-border-pos="0.25" name-position="-3,-118">
+              <points>
+                <point x="380" y="160" />
+                <point x="441" y="160" />
+                <point x="442" y="396.5" />
+                <point x="380" y="396" />
+              </points>
+            </layout>
+            <relation from="c2353edd9df6408c899c4198ecbc923a" from-iid="c2e78ddda1ed4a7bbdf5b95fa50fc29d" to="39c0489f82da4b669e26c499b9bcb68d" to-iid="c905060e34544829ae21acf1faec14fc" />
+          </item>
+          <item id="9288d85f8eb244978046496e625aec94" iid="17634fe49bbc497f9ff8806fc0293d7e" creation-date="01/21/2020 07:58:22" order-index="17" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="380" y1="-80" x2="380" y2="446" start-border-pos="0.377499997615814" end-border-pos="0.497500002384186" name-position="-95,-273" name-width="195">
+              <points>
+                <point x="380" y="-80" />
+                <point x="557" y="-79" />
+                <point x="561" y="446.5" />
+                <point x="380" y="446" />
+              </points>
+            </layout>
+            <relation from="6a2d7430cc2e4aa09e46632305864c02" from-iid="4d3ff93ba03e40d6b91efa4f725c771d" to="39c0489f82da4b669e26c499b9bcb68d" to-iid="c905060e34544829ae21acf1faec14fc" />
+          </item>
+          <item id="7d7cc2b66ef94bda88f5a6aa98250f3d" iid="5ca58263d26642748e65a5c2284f3172" creation-date="01/21/2020 08:00:36" order-index="18" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="380" y1="40" x2="380" y2="422" start-border-pos="0.375" end-border-pos="0.377499997615814" name-position="-43,-193">
+              <points>
+                <point x="380" y="40" />
+                <point x="501" y="41" />
+                <point x="501" y="422" />
+                <point x="380" y="422" />
+              </points>
+            </layout>
+            <relation from="70d8a7d92b884a4c9ffc2bece5676fd9" from-iid="73f5f05abada4ac19d6604399c14c61d" to="39c0489f82da4b669e26c499b9bcb68d" to-iid="c905060e34544829ae21acf1faec14fc" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

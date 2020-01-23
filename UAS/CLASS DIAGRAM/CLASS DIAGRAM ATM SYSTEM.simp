@@ -1,0 +1,1099 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="11.91" multi-file="no" uid="simpda7515daf11140e18fcf02910c586d85">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>10</value>
+      </counter>
+      <counter>
+        <item-type type-id="" type="TextItem" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="" type="AbstractElementGroup" />
+        <value>545</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>11</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="UniversalConnector" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="UmlAssociation" />
+        <value>11</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="UmlGeneralization" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="text" type="AbstractTextItem" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-5b1b2b27dc90428f9226611ba6cafadc" name="" task-id-sequence="0">
+    <persons>
+      <person id="P0fe3a33f1a2c41f1af179629f20e3ae3">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-3fcf98a56ba142c1a8520512beb00511" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <items />
+  <models>
+    <model id="peca95a040a9543b08bfbc155100ae098_275782650" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>01/21/2020 20:20:52</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="pa384e12301554f46b1990d93296f4e89_138237443" name="ClassDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="-216,134">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>01/21/2020 20:20:52</creation-date>
+          <change-date>01/21/2020 21:02:10</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="71f04e3b12fd4409913723e34dbc10e7" cid="C001" type="class" name="Bank" style-class="" visibility="package" change-tracking-state="added" creator="P0fe3a33f1a2c41f1af179629f20e3ae3" creation-date="01/21/2020 20:24:32">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="a5da9d43fda9940adbca6d104d7c78e35293" cid="code" name="code" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-cdc9c5ca-3853-40c8-8452-47a0fcd1f175" />
+                </source-codes>
+              </attribute>
+              <attribute id="a6ab0658625d44b89bf474c49738b75ae329" cid="address" name="address" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-11d08de7-9326-4bb5-9419-d811f1dde329" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o4c27fc4d58f84a61bf532aafdc87632a153" cid="manages" name="manages" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ob5b73717e0734d8a8419a5a080f122dc304" cid="maintains" name="maintains" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="dc51b5c2645d44c6a5b869e13b1b3cf8" cid="C002" type="class" name="ATM" style-class="" visibility="package" change-tracking-state="added" creator="P0fe3a33f1a2c41f1af179629f20e3ae3" creation-date="01/21/2020 20:25:55">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="ae1f60365194345a3994adf5b25918224487" cid="location" name="location" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-7823c245-4066-4ae0-b273-4dce319e80bc" />
+                </source-codes>
+              </attribute>
+              <attribute id="a7d718147a981478eb507015dd7229a95536" cid="managedBy" name="managedBy" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-ddb764a4-5db2-4288-8b87-17e7fee39941" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o1587a8dfebe74296b441aedc29d84bc4815" cid="idebtifies" name="identifies" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oa415fb4888664483bfea9840e6733ecf511" cid="transactions" name="transactions" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="ebf832790d5d4042b72f58185721d3e4" cid="C003" type="class" name="Debit Card" style-class="" visibility="package" change-tracking-state="added" creator="P0fe3a33f1a2c41f1af179629f20e3ae3" creation-date="01/21/2020 20:27:52">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="a3ec77ac491f0483ba562dc253ba71cec462" cid="cardNo" name="cardNo" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-7e99529c-23f8-4830-9766-f15bb3232eca" />
+                </source-codes>
+              </attribute>
+              <attribute id="a57c25d0e2517409fb6a1eb33a7caa017806" cid="ownnedBy" name="ownnedBy" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-b9abad75-6560-45cf-9fd4-55bda7043296" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o8d61841e22e94e359172649836d81ecc174" cid="access" name="access" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="1b7b0a008f4249b1a564b290dcd6271f" cid="C004" type="class" name="Customer" style-class="" visibility="package" change-tracking-state="added" creator="P0fe3a33f1a2c41f1af179629f20e3ae3" creation-date="01/21/2020 20:29:13">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="a08e4347d57034ecc9c46756d7cc97c7070" cid="name" name="name" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-40255ab9-bc5a-4acd-b64a-1f3bf6639ba2" />
+                </source-codes>
+              </attribute>
+              <attribute id="ac58dea99a2c7427884f87121a05dfbd3517" cid="address" name="address" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-716c2176-757a-44f4-b5af-05a1e1bf2d36" />
+                </source-codes>
+              </attribute>
+              <attribute id="a4acd728ae5004a2bb74d1af0fc782a97485" cid="dob" name="dob" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-10d262b9-4483-479b-a0e0-b59ccb4d0adf" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o5fb5a738de1944ac922b43582c978632366" cid="owns" name="owns" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="87d17d8c2de6482fb8fb69773b14e2e0" cid="C005" type="class" name="Account" style-class="" visibility="package" change-tracking-state="added" creator="P0fe3a33f1a2c41f1af179629f20e3ae3" creation-date="01/21/2020 20:30:14">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="aaca3aaa5b8364df783478de933a86b6f685" cid="type" name="type" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-b5eb9996-87b1-4434-87a5-2aab0911af1b" />
+                </source-codes>
+              </attribute>
+              <attribute id="aae9fc8abe1a840f0970d38e8bd06b7c4285" cid="owner" name="owner" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-00243712-f339-428b-99f3-78a0bc15cbb9" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o0473d79754bc44919107b606610c1484364" cid="checkBalance" name="checkBalance" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="d5d030c3373f48b29bf3e6927b388377" cid="C006" type="class" name="ATM Transaction" style-class="" visibility="package" change-tracking-state="added" creator="P0fe3a33f1a2c41f1af179629f20e3ae3" creation-date="01/21/2020 20:31:15">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="a20ba733922d044dc8fae79f1124be917956" cid="transactionId" name="transactionId" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-b6f590d2-181f-4db3-bff8-7f71d1fce43c" />
+                </source-codes>
+              </attribute>
+              <attribute id="ad6bce8644f2a4033b86ecaa1b4c8d8fd436" cid="date" name="date" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-1edae214-259e-4a30-96b4-78f04ce50435" />
+                </source-codes>
+              </attribute>
+              <attribute id="a75097555429943018e146e3400e07dcb876" cid="type" name="type" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-8166e925-629f-4fc9-88ec-dcab5e847a3f" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o50c6079d19a44ec1b43381c54c9d70f0259" cid="update" name="update" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="0009311f25bf4dc9998c79bf45ccdbc3" cid="C007" type="class" name="Saving Account" style-class="" visibility="package" change-tracking-state="added" creator="P0fe3a33f1a2c41f1af179629f20e3ae3" creation-date="01/21/2020 20:32:47">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="acbb435d28a594174803366107f1188e7139" cid="accountNo" name="accountNo" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-dd8b414c-4172-4af1-bb26-01cacfab92b7" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="oedb455df3ba644f3814a6609e0ee1d70467" cid="debit" name="debit" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oa9f4a53dbf7840ae9a4f32b23ebd4c14195" cid="credit" name="credit" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="ae7c8997219f47d5bbec5f52c781efea" cid="C008" type="class" name="Checking Account" style-class="" visibility="package" change-tracking-state="added" creator="P0fe3a33f1a2c41f1af179629f20e3ae3" creation-date="01/21/2020 20:34:00">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="a670a0ffb77244ae580a05f0783c88a2b74" cid="accountNo" name="accountNo" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-7e03e88c-294b-434d-a3c7-b75c977d5e8d" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="od15e39eba9d14e2385e58d9da0d4809b394" cid="debit" name="debit" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="od0c0c02172f04974ae179f2987764915897" cid="credit" name="credit" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="2c742d91eaf740149d5011f715413ff6" cid="C009" type="class" name="Withdrawl Transaction" style-class="" visibility="package" change-tracking-state="added" creator="P0fe3a33f1a2c41f1af179629f20e3ae3" creation-date="01/21/2020 20:35:18">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="a883b29e257ff46c998a56c04c35ea342289" cid="amount" name="amount" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-dbe6c924-571b-420d-a968-a095c6b24fad" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="obe9d0c8fc2244c5e8a8bd9a58b2ca736849" cid="withdrawl" name="withdrawl" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="217b3439d9b6487689c997e15fdabf80" cid="C010" type="class" name="Transfer Transaction" style-class="" visibility="package" change-tracking-state="added" creator="P0fe3a33f1a2c41f1af179629f20e3ae3" creation-date="01/21/2020 20:36:43">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="ab32217a45dd6476e83a9226cbe8305e6704" cid="amount" name="amount" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-73a3735a-641a-46b6-af9c-cfe6dbc641c2" />
+                </source-codes>
+              </attribute>
+              <attribute id="a4be57b884de84dd49420ab7ba1b678b9144" cid="accountNo" name="accountNo" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-1369460c-bb3f-4916-9105-5c3679cb1cd2" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="8639ae4ce4134ab6b98cb5aff7561847" cid="REL001" type="relationship" name="maintains" style-class="" visibility="package" change-tracking-state="added" creator="P0fe3a33f1a2c41f1af179629f20e3ae3" creation-date="01/21/2020 20:39:25" from="71f04e3b12fd4409913723e34dbc10e7" to="dc51b5c2645d44c6a5b869e13b1b3cf8">
+            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;10;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <relation from="71f04e3b12fd4409913723e34dbc10e7" to="dc51b5c2645d44c6a5b869e13b1b3cf8">
+              <start-role id="umlar-f3edd0a1-5281-42a3-ac00-1ecb7af63698" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-b257fcf2-b3ef-4f24-86b0-c130f246fb9e" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ff5012dcc54440eeb1c714db41bda167" cid="REL002" type="relationship" name="manages" style-class="" visibility="package" change-tracking-state="added" creator="P0fe3a33f1a2c41f1af179629f20e3ae3" creation-date="01/21/2020 20:40:52" from="71f04e3b12fd4409913723e34dbc10e7" to="ebf832790d5d4042b72f58185721d3e4">
+            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;10;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <relation from="71f04e3b12fd4409913723e34dbc10e7" to="ebf832790d5d4042b72f58185721d3e4">
+              <start-role id="umlar-44064705-585f-4868-ae35-4a9fc814c5c7" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-2d72def0-d9c2-4d39-a430-a1aff54015fe" name="" multiplicity="1..*" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="c8dd41b15e3a4906887199502cdbafce" cid="REL003" type="relationship" name="+owns" style-class="" visibility="package" change-tracking-state="added" creator="P0fe3a33f1a2c41f1af179629f20e3ae3" creation-date="01/21/2020 20:41:03" from="ebf832790d5d4042b72f58185721d3e4" to="1b7b0a008f4249b1a564b290dcd6271f">
+            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;10;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <relation from="ebf832790d5d4042b72f58185721d3e4" to="1b7b0a008f4249b1a564b290dcd6271f">
+              <start-role id="umlar-2bf60ab0-447d-4669-928e-8ee52bb0b60d" name="" multiplicity="1..*" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-ecaef377-9592-4dd0-a548-12f3cac485c6" name="" multiplicity="0..*" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="f65dfa3c75024332a08ccf5649292c1e" cid="REL004" type="relationship" name="+has" style-class="" visibility="package" change-tracking-state="added" creator="P0fe3a33f1a2c41f1af179629f20e3ae3" creation-date="01/21/2020 20:41:09" from="71f04e3b12fd4409913723e34dbc10e7" to="1b7b0a008f4249b1a564b290dcd6271f">
+            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;10;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <relation from="71f04e3b12fd4409913723e34dbc10e7" to="1b7b0a008f4249b1a564b290dcd6271f">
+              <start-role id="umlar-68b2517b-bebe-4c17-93bb-17ecbf0d390e" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-4162aceb-d6e0-4671-a001-5a15c327808f" name="" multiplicity="1..*" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="033643e7668240548608147ba561b275" cid="REL005" type="relationship" name="+Provides access to" style-class="" visibility="package" change-tracking-state="added" creator="P0fe3a33f1a2c41f1af179629f20e3ae3" creation-date="01/21/2020 20:42:20" from="ebf832790d5d4042b72f58185721d3e4" to="87d17d8c2de6482fb8fb69773b14e2e0">
+            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;10;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <relation from="ebf832790d5d4042b72f58185721d3e4" to="87d17d8c2de6482fb8fb69773b14e2e0">
+              <start-role id="umlar-e5d918bb-fbb9-4170-a161-abc960002abd" name="" multiplicity="*" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-d202a323-78d9-409a-9958-d45031209581" name="" multiplicity="1..*" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="803388b9bd3a49139c288a04884aeee0" cid="REL006" type="relationship" name="+identifies" style-class="" visibility="package" change-tracking-state="added" creator="P0fe3a33f1a2c41f1af179629f20e3ae3" creation-date="01/21/2020 20:43:07" from="dc51b5c2645d44c6a5b869e13b1b3cf8" to="d5d030c3373f48b29bf3e6927b388377">
+            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;10;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <relation from="dc51b5c2645d44c6a5b869e13b1b3cf8" to="d5d030c3373f48b29bf3e6927b388377">
+              <start-role id="umlar-64c51ede-94c2-4332-bdb6-a1ea66c0ba06" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-2862606b-4445-47bc-8c9a-99e034238c20" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="24fc2876f7274a828c0baebcb52cefef" cid="REL007" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="P0fe3a33f1a2c41f1af179629f20e3ae3" creation-date="01/21/2020 20:43:22" from="d5d030c3373f48b29bf3e6927b388377" to="87d17d8c2de6482fb8fb69773b14e2e0">
+            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;10;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <relation from="d5d030c3373f48b29bf3e6927b388377" to="87d17d8c2de6482fb8fb69773b14e2e0">
+              <start-role id="umlar-152f2ed7-e183-4a19-9506-2e9b4e370961" name="" multiplicity="*" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-718a0a10-5e0a-442b-8283-de15f017fdc2" name="" multiplicity="1" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="91cab85630be4a68a929c4e09471ab13" cid="REL008" type="relationship" name="owns" style-class="" visibility="package" change-tracking-state="added" creator="P0fe3a33f1a2c41f1af179629f20e3ae3" creation-date="01/21/2020 20:44:14" from="1b7b0a008f4249b1a564b290dcd6271f" to="87d17d8c2de6482fb8fb69773b14e2e0">
+            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;10;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <relation from="1b7b0a008f4249b1a564b290dcd6271f" to="87d17d8c2de6482fb8fb69773b14e2e0">
+              <start-role id="umlar-6ee6d31e-544f-4c6a-99b9-ee462e97ddaf" name="" multiplicity="1..*" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-95932759-c607-4e59-9449-7f2147c7d8e2" name="" multiplicity="1..*" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="f3a08f9afe8a41b697eda304ffdc7328" cid="REL009" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="P0fe3a33f1a2c41f1af179629f20e3ae3" creation-date="01/21/2020 20:46:58" from="0009311f25bf4dc9998c79bf45ccdbc3" to="ae7c8997219f47d5bbec5f52c781efea">
+            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;10;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <relation from="0009311f25bf4dc9998c79bf45ccdbc3" to="ae7c8997219f47d5bbec5f52c781efea">
+              <start-role id="umlar-b30c8642-7d9e-4085-b848-58a34da746e0" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-1f75af34-958e-42f5-87ef-25cb9dc24cab" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="6d0628e487df4e96b721d6a450adb7ce" cid="GNR001" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P0fe3a33f1a2c41f1af179629f20e3ae3" creation-date="01/21/2020 20:47:57" from="f3a08f9afe8a41b697eda304ffdc7328" to="87d17d8c2de6482fb8fb69773b14e2e0">
+            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;10;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="dd0d854242264e53a118533aac616e9b" cid="REL010" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="P0fe3a33f1a2c41f1af179629f20e3ae3" creation-date="01/21/2020 20:49:11" from="2c742d91eaf740149d5011f715413ff6" to="217b3439d9b6487689c997e15fdabf80">
+            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;10;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <relation from="2c742d91eaf740149d5011f715413ff6" to="217b3439d9b6487689c997e15fdabf80">
+              <start-role id="umlar-56e38961-a42a-44b7-8b64-5a8c2344605f" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-d7e9871c-6e77-4ba3-9537-633927b2d391" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="8306f70d1d214debb778fd0000137094" cid="GNR002" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creator="P0fe3a33f1a2c41f1af179629f20e3ae3" creation-date="01/21/2020 20:50:05" from="dd0d854242264e53a118533aac616e9b" to="d5d030c3373f48b29bf3e6927b388377">
+            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Segoe UI;10;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+        </abstract-items>
+        <layer id="cc1ea38da4fa4a2ca6ff7693a634c6dd" name="Default" visible="true" enabled="true" locked="false">
+          <item id="71f04e3b12fd4409913723e34dbc10e7" iid="3588c7580a904aa29c75db88d163093b" anchor="None" creation-date="01/21/2020 20:24:32" order-index="0" type="entity">
+            <layout ax="-29" ay="-40" awidth="140" aheight="132" x="-29" y="-40" width="140" height="132" />
+            <class />
+          </item>
+          <item id="dc51b5c2645d44c6a5b869e13b1b3cf8" iid="9fc1ea3ad4de41b1bd23597d60452af2" anchor="None" creation-date="01/21/2020 20:25:55" order-index="1" type="entity">
+            <layout ax="473" ay="-38.5" awidth="140" aheight="129" x="473" y="-38.5" width="140" height="129" />
+            <class />
+          </item>
+          <item id="ebf832790d5d4042b72f58185721d3e4" iid="a5f4b79efecd40f2aadfcfadb217b6bd" anchor="None" creation-date="01/21/2020 20:27:52" order-index="2" type="entity">
+            <layout ax="-29" ay="204" awidth="140" aheight="119" x="-29" y="204" width="140" height="119" />
+            <class />
+          </item>
+          <item id="1b7b0a008f4249b1a564b290dcd6271f" iid="8f4d4a79e18b4445a6be8ead767bb2f1" anchor="None" creation-date="01/21/2020 20:29:13" order-index="3" type="entity">
+            <layout ax="210" ay="204" awidth="140" aheight="119" x="210" y="204" width="140" height="119" />
+            <class />
+          </item>
+          <item id="87d17d8c2de6482fb8fb69773b14e2e0" iid="2fb9eb6ce0e0484aa4cd81daaf9e52f6" anchor="None" creation-date="01/21/2020 20:30:14" order-index="4" type="entity">
+            <layout ax="-29" ay="435" awidth="140" aheight="119" x="-29" y="435" width="140" height="119" />
+            <class />
+          </item>
+          <item id="d5d030c3373f48b29bf3e6927b388377" iid="fa2f1629dd4c4a0ba2046e46ae4e10dc" anchor="None" creation-date="01/21/2020 20:31:15" order-index="5" type="entity">
+            <layout ax="473" ay="435" awidth="140" aheight="119" x="473" y="435" width="140" height="119" />
+            <class />
+          </item>
+          <item id="0009311f25bf4dc9998c79bf45ccdbc3" iid="2efe2bdf31124e08b4ea758eff00b7ff" anchor="None" creation-date="01/21/2020 20:32:47" order-index="6" type="entity">
+            <layout ax="-136" ay="666" awidth="140" aheight="119" x="-136" y="666" width="140" height="119" />
+            <class />
+          </item>
+          <item id="ae7c8997219f47d5bbec5f52c781efea" iid="413de743c1a14588a80bb37f743a53d1" anchor="None" creation-date="01/21/2020 20:34:00" order-index="7" type="entity">
+            <layout ax="111" ay="666" awidth="140" aheight="119" x="111" y="666" width="140" height="119" />
+            <class />
+          </item>
+          <item id="2c742d91eaf740149d5011f715413ff6" iid="8daf4f50b1b74714b444b179cde2d7a0" anchor="None" creation-date="01/21/2020 20:35:18" order-index="8" type="entity">
+            <layout ax="358" ay="666" awidth="140" aheight="98" x="358" y="666" width="140" height="98" />
+            <class />
+          </item>
+          <item id="217b3439d9b6487689c997e15fdabf80" iid="43aa63319eb340a0b5a1e77be3f55f7a" anchor="None" creation-date="01/21/2020 20:36:43" order-index="9" type="entity">
+            <layout ax="597" ay="666" awidth="140" aheight="98" x="597" y="666" width="140" height="98" />
+            <class />
+          </item>
+          <item id="8639ae4ce4134ab6b98cb5aff7561847" iid="f27b8167c8ad44a895f67ec866102b2c" creation-date="01/21/2020 20:39:25" order-index="10" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="23,-118" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="41" y1="-40" x2="543" y2="-38" start-border-pos="0.125" end-border-pos="0.125" name-position="-21,-17" name-width="90">
+              <points>
+                <point x="41" y="-40" />
+                <point x="41" y="-74" />
+                <point x="543" y="-76" />
+                <point x="543" y="-38" />
+              </points>
+            </layout>
+            <relation from="71f04e3b12fd4409913723e34dbc10e7" from-iid="3588c7580a904aa29c75db88d163093b" to="dc51b5c2645d44c6a5b869e13b1b3cf8" to-iid="9fc1ea3ad4de41b1bd23597d60452af2" />
+          </item>
+          <item id="ff5012dcc54440eeb1c714db41bda167" iid="10a552c8894d49519c51aeb4a13fa809" creation-date="01/21/2020 20:40:52" order-index="11" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="15,16" end-multiplicity-position="13,-22" line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="41" y1="92" x2="41" y2="204" start-border-pos="0.625" end-border-pos="0.125" name-position="-29,0">
+              <points>
+                <point x="41" y="92" />
+                <point x="41" y="204" />
+              </points>
+            </layout>
+            <relation from="71f04e3b12fd4409913723e34dbc10e7" from-iid="3588c7580a904aa29c75db88d163093b" to="ebf832790d5d4042b72f58185721d3e4" to-iid="a5f4b79efecd40f2aadfcfadb217b6bd" />
+          </item>
+          <item id="c8dd41b15e3a4906887199502cdbafce" iid="4551723545844540a48d53460e832c98" creation-date="01/21/2020 20:41:03" order-index="12" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="111" y1="264" x2="210" y2="264" start-border-pos="0.376050420168067" end-border-pos="0.873949579831933" name-position="-3,9">
+              <points>
+                <point x="111" y="264" />
+                <point x="210" y="264" />
+              </points>
+            </layout>
+            <relation from="ebf832790d5d4042b72f58185721d3e4" from-iid="a5f4b79efecd40f2aadfcfadb217b6bd" to="1b7b0a008f4249b1a564b290dcd6271f" to-iid="8f4d4a79e18b4445a6be8ead767bb2f1" />
+          </item>
+          <item id="f65dfa3c75024332a08ccf5649292c1e" iid="739690a817e544e8860129568c1f99e2" creation-date="01/21/2020 20:41:09" order-index="13" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="19.0001,-14.9645" end-multiplicity-position="20,27" line-style="oblique" lock-start-point="false" lock-end-point="true" lock-to-fields="false" auto-path="" x1="111" y1="78" x2="280" y2="204" start-border-pos="0.473738439155347" end-border-pos="0.125" name-position="-17,-17">
+              <points>
+                <point x="111" y="78" />
+                <point x="280" y="79" />
+                <point x="280" y="204" />
+              </points>
+            </layout>
+            <relation from="71f04e3b12fd4409913723e34dbc10e7" from-iid="3588c7580a904aa29c75db88d163093b" to="1b7b0a008f4249b1a564b290dcd6271f" to-iid="8f4d4a79e18b4445a6be8ead767bb2f1" />
+          </item>
+          <item id="033643e7668240548608147ba561b275" iid="7da831ea351a42e98ab9caad38fb988c" creation-date="01/21/2020 20:42:20" order-index="14" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="15,-15" end-multiplicity-position="12,20" line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="41" y1="323" x2="41" y2="435" start-border-pos="0.625" end-border-pos="0.125" name-position="-42,0">
+              <points>
+                <point x="41" y="323" />
+                <point x="41" y="435" />
+              </points>
+            </layout>
+            <relation from="ebf832790d5d4042b72f58185721d3e4" from-iid="a5f4b79efecd40f2aadfcfadb217b6bd" to="87d17d8c2de6482fb8fb69773b14e2e0" to-iid="2fb9eb6ce0e0484aa4cd81daaf9e52f6" />
+          </item>
+          <item id="803388b9bd3a49139c288a04884aeee0" iid="a04a26e922dc416ba1eca08bbc347c9d" creation-date="01/21/2020 20:43:07" order-index="15" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="543" y1="90" x2="543" y2="435" start-border-pos="0.625" end-border-pos="0.125" name-position="42,-7">
+              <points>
+                <point x="543" y="90" />
+                <point x="543" y="435" />
+              </points>
+            </layout>
+            <relation from="dc51b5c2645d44c6a5b869e13b1b3cf8" from-iid="9fc1ea3ad4de41b1bd23597d60452af2" to="d5d030c3373f48b29bf3e6927b388377" to-iid="fa2f1629dd4c4a0ba2046e46ae4e10dc" />
+          </item>
+          <item id="24fc2876f7274a828c0baebcb52cefef" iid="9dd96cca8e0f46a2817c7dde447c2013" creation-date="01/21/2020 20:43:22" order-index="16" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="24,15" end-multiplicity-position="25,-13" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="473" y1="494" x2="111" y2="494" start-border-pos="0.876050427556038" end-border-pos="0.373949579894543" name-position="0,0">
+              <points>
+                <point x="473" y="494" />
+                <point x="111" y="494" />
+              </points>
+            </layout>
+            <relation from="d5d030c3373f48b29bf3e6927b388377" from-iid="fa2f1629dd4c4a0ba2046e46ae4e10dc" from-field="a20ba733922d044dc8fae79f1124be917956" to="87d17d8c2de6482fb8fb69773b14e2e0" to-iid="2fb9eb6ce0e0484aa4cd81daaf9e52f6" />
+          </item>
+          <item id="91cab85630be4a68a929c4e09471ab13" iid="a862d3eab51d4305b5dcb4eb3624bb3e" creation-date="01/21/2020 20:44:14" order-index="17" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="14,11" end-multiplicity-position="22.70828,-10.81772" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="210" y1="308" x2="111" y2="450" start-border-pos="0.781512606889009" end-border-pos="0.281512606889009" name-position="29,44">
+              <points>
+                <point x="210" y="308" />
+                <point x="179" y="308" />
+                <point x="178" y="450" />
+                <point x="111" y="450" />
+              </points>
+            </layout>
+            <relation from="1b7b0a008f4249b1a564b290dcd6271f" from-iid="8f4d4a79e18b4445a6be8ead767bb2f1" to="87d17d8c2de6482fb8fb69773b14e2e0" to-iid="2fb9eb6ce0e0484aa4cd81daaf9e52f6" />
+          </item>
+          <item id="f3a08f9afe8a41b697eda304ffdc7328" iid="c5a648cb6f6f46ae8c7238cbf71b4e5d" creation-date="01/21/2020 20:46:58" order-index="18" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-66" y1="666" x2="181" y2="666" start-border-pos="0.125" end-border-pos="0.125" name-position="-4,-21">
+              <points>
+                <point x="-66" y="666" />
+                <point x="-66" y="636" />
+                <point x="181" y="634" />
+                <point x="181" y="666" />
+              </points>
+            </layout>
+            <relation from="0009311f25bf4dc9998c79bf45ccdbc3" from-iid="2efe2bdf31124e08b4ea758eff00b7ff" to="ae7c8997219f47d5bbec5f52c781efea" to-iid="413de743c1a14588a80bb37f743a53d1" />
+          </item>
+          <item id="6d0628e487df4e96b721d6a450adb7ce" iid="1fbed5b7923a477c928cbf009f50d63b" creation-date="01/21/2020 20:47:57" order-index="19" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="41" y1="635" x2="41" y2="554" start-border-pos="0.443365429304399" end-border-pos="0.625" name-position="0,0">
+              <points>
+                <point x="41" y="635" />
+                <point x="41" y="554" />
+              </points>
+            </layout>
+            <relation from="f3a08f9afe8a41b697eda304ffdc7328" from-iid="c5a648cb6f6f46ae8c7238cbf71b4e5d" to="87d17d8c2de6482fb8fb69773b14e2e0" to-iid="2fb9eb6ce0e0484aa4cd81daaf9e52f6" />
+          </item>
+          <item id="dd0d854242264e53a118533aac616e9b" iid="f14190cee3c04607b9746cd672ce9334" creation-date="01/21/2020 20:49:11" order-index="20" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="428" y1="666" x2="667" y2="666" start-border-pos="0.125" end-border-pos="0.125" name-position="0,0">
+              <points>
+                <point x="428" y="666" />
+                <point x="428" y="633" />
+                <point x="666" y="634" />
+                <point x="667" y="666" />
+              </points>
+            </layout>
+            <relation from="2c742d91eaf740149d5011f715413ff6" from-iid="8daf4f50b1b74714b444b179cde2d7a0" to="217b3439d9b6487689c997e15fdabf80" to-iid="43aa63319eb340a0b5a1e77be3f55f7a" />
+          </item>
+          <item id="8306f70d1d214debb778fd0000137094" iid="579a3144dbc94b6b876bc75f9e5254dc" creation-date="01/21/2020 20:50:05" order-index="21" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="543" y1="633" x2="543" y2="554" start-border-pos="0.488423628210141" end-border-pos="0.625" name-position="0,30">
+              <points>
+                <point x="543" y="633" />
+                <point x="543" y="554" />
+              </points>
+            </layout>
+            <relation from="dd0d854242264e53a118533aac616e9b" from-iid="f14190cee3c04607b9746cd672ce9334" to="d5d030c3373f48b29bf3e6927b388377" to-iid="fa2f1629dd4c4a0ba2046e46ae4e10dc" />
+          </item>
+          <item id="die7b506010e1a4a778c6feadb5756bbc61653" iid="ad3caf791fc94d47b541ba566dfedbd3" name="Element1" creation-date="01/21/2020 21:02:10" order-index="22" type="drawing-text">
+            <layout ax="-18" ay="-306" awidth="613" aheight="98" x="-18" y="-306" width="613" height="98" />
+            <drawing-text>
+              <text>Class Diagram for ATM System</text>
+            </drawing-text>
+            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FF000000" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;24;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;24;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="solid" color="#00FFFFFF" color2="#00FFFFFF" />
+              <border color="#FF000000" width="0" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

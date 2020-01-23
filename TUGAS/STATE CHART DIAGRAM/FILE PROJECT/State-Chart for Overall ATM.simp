@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="11.91" multi-file="no" uid="simp04c16797a4de41c295290e34c94cc3e0">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="initial-state" type="UmlInitialState" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="state" type="UmlState" />
+        <value>3</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="initial-state" type="UmlInitialState" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="state" type="UmlState" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="UniversalConnector" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="general-transition" type="UmlTransition" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="text" type="AbstractTextItem" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type type-id="" type="AbstractElementGroup" />
+        <value>9</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlStateMachineDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-182525f66bd143d49f396c11c23c7c77" name="" task-id-sequence="0">
+    <working-schedule uid="ws-0eca5c254f814695a7c87e4e09c7239e" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="P69b7adf50f274edcbd316eddcf0806db">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-ae733e81629b4d9fb90e41ddaae711cc" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-ec9228f68e7b48979e31ab7d69fb29c4" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <items />
+  <models>
+    <model id="p0b6dd249c568410197565c50847d0304_198242812" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>01/21/2020 06:56:28</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-statechart" id="p12c7d49a5cf04d6e90bb8ee01dbe4075_988046301" name="StateMachineDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="-100,-283">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>01/21/2020 06:56:28</creation-date>
+          <change-date>01/21/2020 07:22:49</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="b18f9511aa094df3b6559f8fdc4f2e76" cid="IS001" type="initial-state" name="" style-class="" visibility="package" change-tracking-state="added" creator="P69b7adf50f274edcbd316eddcf0806db" creation-date="01/21/2020 06:56:43" />
+          <item id="827ba59bcf4c47ca8ef05a83a272209f" cid="ST001" type="state" name="OFF entry/display &quot;Not avaliable&quot;" style-class="" visibility="package" change-tracking-state="added" creator="P69b7adf50f274edcbd316eddcf0806db" creation-date="01/21/2020 06:57:05">
+            <state-invariant />
+            <actions />
+          </item>
+          <item id="8c26b715f2d04356839010925f357699" cid="ST002" type="state" name="IDLE entry/display &quot;Please insert card&quot;" style-class="" visibility="package" change-tracking-state="added" creator="P69b7adf50f274edcbd316eddcf0806db" creation-date="01/21/2020 06:58:38">
+            <state-invariant />
+            <actions />
+          </item>
+          <item id="bd5940085f264bd697f9c24f56ebba0d" cid="ST003" type="state" name="SERVING CUSTOMER include Session" style-class="" visibility="package" change-tracking-state="added" creator="P69b7adf50f274edcbd316eddcf0806db" creation-date="01/21/2020 07:01:15">
+            <state-invariant />
+            <actions />
+          </item>
+          <item id="8a04fd24f6a842748746ea11b1f8eaa3" cid="ELEM001" type="general-transition" name="" style-class="" visibility="package" change-tracking-state="added" creator="P69b7adf50f274edcbd316eddcf0806db" creation-date="01/21/2020 07:14:40" from="b18f9511aa094df3b6559f8fdc4f2e76" to="827ba59bcf4c47ca8ef05a83a272209f">
+            <transition guard="" behaviourExpression="" />
+          </item>
+          <item id="0eabd6ba0a554cb58760900a6fd29fb6" cid="ELEM002" type="general-transition" name="" style-class="" visibility="package" change-tracking-state="added" creator="P69b7adf50f274edcbd316eddcf0806db" creation-date="01/21/2020 07:15:00" from="827ba59bcf4c47ca8ef05a83a272209f" to="8c26b715f2d04356839010925f357699">
+            <transition guard="" behaviourExpression=" perform startup">
+              <trigger>switch turned on</trigger>
+            </transition>
+          </item>
+          <item id="bbf6a347a5c94103b599e0adf61d424a" cid="ELEM003" type="general-transition" name="" style-class="" visibility="package" change-tracking-state="added" creator="P69b7adf50f274edcbd316eddcf0806db" creation-date="01/21/2020 07:15:33" from="8c26b715f2d04356839010925f357699" to="827ba59bcf4c47ca8ef05a83a272209f">
+            <transition guard="" behaviourExpression=" perform shutdown">
+              <trigger>switch turned off</trigger>
+            </transition>
+          </item>
+          <item id="80797c395287400886a210e4d7cc9a7b" cid="ELEM004" type="general-transition" name="" style-class="" visibility="package" change-tracking-state="added" creator="P69b7adf50f274edcbd316eddcf0806db" creation-date="01/21/2020 07:17:10" from="8c26b715f2d04356839010925f357699" to="bd5940085f264bd697f9c24f56ebba0d">
+            <transition guard="" behaviourExpression=" create session">
+              <trigger>card inserted</trigger>
+            </transition>
+          </item>
+          <item id="1f9ac9db59e340f19356641f2a2e3029" cid="ELEM005" type="general-transition" name="" style-class="" visibility="package" change-tracking-state="added" creator="P69b7adf50f274edcbd316eddcf0806db" creation-date="01/21/2020 07:17:25" from="bd5940085f264bd697f9c24f56ebba0d" to="8c26b715f2d04356839010925f357699">
+            <transition guard="" behaviourExpression="">
+              <trigger>session completed or aborted</trigger>
+            </transition>
+          </item>
+        </abstract-items>
+        <layer id="e2ef305013c54dfbbe8bf55abd91931e" name="Default" visible="true" enabled="true" locked="false">
+          <item id="b18f9511aa094df3b6559f8fdc4f2e76" iid="5f3b12cd2678481b9b1596eb3cc03126" anchor="None" creation-date="01/21/2020 06:56:43" order-index="0" type="entity">
+            <layout ax="20" ay="-4" awidth="25" aheight="25" x="20" y="-4" width="25" height="25" name-position="0,10" name-anchor="bottom" auto-anchor="true" label-attached="false" />
+          </item>
+          <item id="827ba59bcf4c47ca8ef05a83a272209f" iid="7ee5f35f890e40e2b3e89fe6912c8252" anchor="None" creation-date="01/21/2020 06:57:05" order-index="1" type="entity">
+            <layout ax="145" ay="-16.5" awidth="125" aheight="50" x="145" y="-16.5" width="125" height="50" />
+          </item>
+          <item id="8c26b715f2d04356839010925f357699" iid="8eb3e04b4448490ea2e08429d58d484c" anchor="None" creation-date="01/21/2020 06:58:38" order-index="2" type="entity">
+            <layout ax="340" ay="178" awidth="147" aheight="69" x="340" y="178" width="147" height="69" />
+          </item>
+          <item id="bd5940085f264bd697f9c24f56ebba0d" iid="69d3654b115c4402921bee5e581212c6" anchor="None" creation-date="01/21/2020 07:01:15" order-index="3" type="entity">
+            <layout ax="20" ay="178" awidth="107" aheight="69" x="20" y="178" width="107" height="69" />
+          </item>
+          <item id="8a04fd24f6a842748746ea11b1f8eaa3" iid="fb5651c0afbf4426bdfe007d009d008b" creation-date="01/21/2020 07:14:40" order-index="4" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="45" y1="8" x2="145" y2="8" start-border-pos="0.37" end-border-pos="0.8775" name-position="0,0">
+              <points>
+                <point x="45" y="8" />
+                <point x="145" y="8" />
+              </points>
+            </layout>
+            <relation from="b18f9511aa094df3b6559f8fdc4f2e76" from-iid="5f3b12cd2678481b9b1596eb3cc03126" to="827ba59bcf4c47ca8ef05a83a272209f" to-iid="7ee5f35f890e40e2b3e89fe6912c8252" />
+          </item>
+          <item id="0eabd6ba0a554cb58760900a6fd29fb6" iid="b24578da8bf44c46a163064d86f02904" creation-date="01/21/2020 07:15:00" order-index="5" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="270" y1="34" x2="455" y2="178" start-border-pos="0.5" end-border-pos="0.195512816309929" name-position="43,-9" name-width="137">
+              <points>
+                <point x="270" y="34" />
+                <point x="455" y="178" />
+              </points>
+            </layout>
+            <relation from="827ba59bcf4c47ca8ef05a83a272209f" from-iid="7ee5f35f890e40e2b3e89fe6912c8252" to="8c26b715f2d04356839010925f357699" to-iid="8eb3e04b4448490ea2e08429d58d484c" />
+          </item>
+          <item id="bbf6a347a5c94103b599e0adf61d424a" iid="337ec991685640e0bf2dccf346f94a9d" creation-date="01/21/2020 07:15:33" order-index="6" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="340" y1="178" x2="170" y2="34" start-border-pos="0" end-border-pos="0.700000002980232" name-position="-75,29" name-width="147">
+              <points>
+                <point x="340" y="178" />
+                <point x="183" y="45" />
+                <point x="170" y="34" />
+              </points>
+            </layout>
+            <relation from="8c26b715f2d04356839010925f357699" from-iid="8eb3e04b4448490ea2e08429d58d484c" to="827ba59bcf4c47ca8ef05a83a272209f" to-iid="7ee5f35f890e40e2b3e89fe6912c8252" />
+          </item>
+          <item id="80797c395287400886a210e4d7cc9a7b" iid="963a320aa77b45598efae99399b8fb5a" creation-date="01/21/2020 07:17:10" order-index="7" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="340" y1="197" x2="127" y2="197" start-border-pos="0.931159420289855" end-border-pos="0.318840579710145" name-position="3,-6">
+              <points>
+                <point x="340" y="197" />
+                <point x="127" y="197" />
+              </points>
+            </layout>
+            <relation from="8c26b715f2d04356839010925f357699" from-iid="8eb3e04b4448490ea2e08429d58d484c" to="bd5940085f264bd697f9c24f56ebba0d" to-iid="69d3654b115c4402921bee5e581212c6" />
+          </item>
+          <item id="1f9ac9db59e340f19356641f2a2e3029" iid="2400cace950e47129674523a4723e5f3" creation-date="01/21/2020 07:17:25" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="127" y1="225" x2="340" y2="225" start-border-pos="0.420289855072464" end-border-pos="0.829710144927536" name-position="-5,37" name-width="210">
+              <points>
+                <point x="127" y="225" />
+                <point x="340" y="225" />
+              </points>
+            </layout>
+            <relation from="bd5940085f264bd697f9c24f56ebba0d" from-iid="69d3654b115c4402921bee5e581212c6" to="8c26b715f2d04356839010925f357699" to-iid="8eb3e04b4448490ea2e08429d58d484c" />
+          </item>
+          <item id="di9c3dd459b7f4419f828a4e689fdb90a77200" iid="a53250dbb89047b4a94105da43c482fe" name="Element1" creation-date="01/21/2020 07:22:49" order-index="9" type="drawing-text">
+            <layout ax="-118.5" ay="-183" awidth="652" aheight="117" x="-118.5" y="-183" width="652" height="117" />
+            <drawing-text>
+              <text>State-Chart for Overall ATM (includes System Startup and System Shutdown Use Cases)</text>
+            </drawing-text>
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FF000000" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;20;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;20;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="solid" color="#00FFFFFF" color2="#00FFFFFF" />
+              <border color="#FF000000" width="0" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
